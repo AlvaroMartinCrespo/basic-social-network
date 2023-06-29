@@ -39,11 +39,7 @@ export const authOptions = {
     secret: 'NEXT_AUTH_JWT_SECRET',
   },
   secret: 'NEXT_AUTH_SECRET',
-  callbacks: {
-    signIn: async () => {
-      return Promise.resolve('/dashboard');
-    },
-  },
+  callbacks: {},
 };
 
 export default NextAuth(authOptions);

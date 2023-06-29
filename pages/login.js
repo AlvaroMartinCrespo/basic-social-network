@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 export default function Login() {
   const { data: session } = useSession();
   const router = useRouter();
+  console.log(session);
   // If there is session, go to the dashboard
   useEffect(() => {
     if (session) {
@@ -40,7 +41,7 @@ export default function Login() {
           position: 'bottom-right',
         });
       } else {
-        signIn('credentials', {
+        const login = await signIn('credentials', {
           email,
           password,
         });
