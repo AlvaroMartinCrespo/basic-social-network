@@ -22,7 +22,6 @@ export default function Login() {
       });
       const res = await req.json();
       if (!req.ok) {
-        console.error(res);
         toast(res.message, {
           hideProgressBar: true,
           autoClose: 2000,

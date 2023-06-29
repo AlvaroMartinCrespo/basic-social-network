@@ -21,6 +21,7 @@ export default async function Register(req, res) {
         hashedPassword,
       },
     });
+    await prisma.$disconnect();
     return res.status(200).json({ message: 'ok', user: user });
   } catch (error) {
     return res.status(500).json({ message: 'User already register' });
