@@ -1,8 +1,18 @@
 import Link from 'next/link';
 import { toast } from 'react-toastify';
 import { signIn } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
+import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 export default function Login() {
+  const { data: session } = useSession();
+  const router = useRouter();
+  // If there is session, go to the dashboard
+  useEffect(() => {
+    if (session) {
+      router.push('/dashboard');
+    }
+  }, [session]);
   const handler = async (e) => {
     e.preventDefault();
     // Get info user from form

@@ -14,7 +14,6 @@ export default async function Login(req, res) {
         email,
       },
     });
-    // return res.status(200).json({ user: user });
     // If not
     if (!user) {
       return res.status(500).json({ message: 'User is not registered' });
