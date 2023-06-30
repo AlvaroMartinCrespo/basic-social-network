@@ -33,7 +33,7 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/nombre-repositorio.git
+   git clone https://github.com/AlvaroMartinCrespo/basic-social-network.git
    ```
 
 2. Accede al directorio del proyecto:
