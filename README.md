@@ -63,7 +63,8 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
    npm run dev
    ```
 
-#Contribución
+# Contribución
+
 Si deseas contribuir a este proyecto, sigue los pasos a continuación:
 
 1. Realiza un fork del repositorio.
