@@ -50,8 +50,8 @@ Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
 
 5. Configuración de la base de datos:
 
-1. Crea un archivo .env.local en el directorio raíz del proyecto.
-2. Agrega la siguiente línea al archivo .env.local y reemplaza <TU_URL_MONGODB> con la URL de conexión de tu instancia de MongoDB:
+   - Crea un archivo .env.local en el directorio raíz del proyecto.
+   - Agrega la siguiente línea al archivo .env.local y reemplaza <TU_URL_MONGODB> con la URL de conexión de tu instancia de MongoDB:
 
     ```bash
    MONGODB_URL=<TU_URL_MONGODB>
