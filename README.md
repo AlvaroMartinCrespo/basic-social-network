@@ -74,10 +74,10 @@ Si deseas contribuir a este proyecto, sigue los pasos a continuación:
 5. Empuja tus cambios a tu repositorio fork: git push origin nombre-rama.
 6. Crea un pull request en el repositorio original.
 
-#Licencia
+# Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Siéntete libre de utilizar, modificar y distribuir este código de acuerdo con los términos de la licencia.
 
-#Contacto
+# Contacto
 Si tienes alguna pregunta, sugerencia o consulta sobre este proyecto, no dudes en contactarme a través de mi dirección de correo electrónico: alvaro.martin.crespo.00@gmail.com
 
 -Linkedin: [Álvaro Martín Crespo](https://www.linkedin.com/in/%C3%A1lvaro-mart%C3%ADn-crespo-bb9aa5246/)
